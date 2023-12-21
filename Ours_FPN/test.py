@@ -29,7 +29,7 @@ def get_args_parser():
                         help="checkpoint name for test. [ours_fpn, ours_hrnet, ours_fpn_xu]")
     parser.add_argument('--test_dir', default="./data/test/", type=str)
     parser.add_argument('--test_list', nargs='+', default=["DUT-RGBD", "LFSD", "NJU2K", "NLPR",
-                                                           "RGBD135", "SIP", "SSD100", "STERE", "ReDWeb_S"])
+                                                           "RGBD135", "SIP", "SSD100", "STERE", "ReDWeb-S"])
     parser.add_argument('--num_workers', default=1, type=int)
     return parser
 

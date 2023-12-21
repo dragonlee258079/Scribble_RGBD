@@ -22,13 +22,19 @@ the ensuing performance drop, we summarize two natural deficiencies of the scrib
 Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/folders/1mZ1f6PTLY4UVP9kttgd5f6BXM_hlCtIo?usp=sharing) and unzip them to '.data'. Then the structure of the './data' folder will show as following:
 ````
 -- dataset
-   |-- train_data
-   |   |-- | CoCo9k
-   |   |-- | DUTS_class
-   |   |-- | DUTS_class_syn
-   |   |-- |-- | img_png_seamless_cloning_add_naive
-   |   |-- |-- | img_png_seamless_cloning_add_naive_reverse_2
-   |-- test_data
+   |-- test
+   |   |-- | Test
+   |   |-- |-- | DUTLF-Depth
+   |   |-- |-- |-- | depth
+   |   |-- |-- |-- | GT
+   |   |-- |-- |-- | RGB
+   |   |-- |-- | LFSD
+   |   |-- |-- |-- | depth
+   |   |-- |-- |-- | GT
+   |   |-- |-- |-- | RGB
+   ...
+
+   |-- train
    |   |-- | CoCA
    |   |-- | CoSal2015
    |   |-- | CoSOD3k

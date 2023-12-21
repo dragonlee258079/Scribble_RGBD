@@ -39,12 +39,12 @@ Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/f
    ...
 
    |-- train
-   |   |-- | Train
+   |   |-- | Train/Train_Xu
    |   |-- |-- | depth
    |   |-- |-- | gt
    |   |-- |-- | mask
    |   |-- |-- | RGB
-   |   |-- | train_list.txt / train_list_xu.txt
+   |   |-- | train_list.txt/train_list_xu.txt
 ````
 
 

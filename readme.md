@@ -44,6 +44,7 @@ Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/f
    |   |-- |-- | gt
    |   |-- |-- | mask
    |   |-- |-- | RGB
+   |   |-- | train_list.txt / train_list_xu.txt
 ````
 
 

@@ -8,6 +8,9 @@ the ensuing performance drop, we summarize two natural deficiencies of the scrib
 samples for robust saliency perception learning. PSIO makes direct structural learning infeasible since scribbles can not provide integral structural supervision. Thus, we propose an edge-region structure-refinement loss to recover the structural information and make precise segmentation. We deploy all components and conduct ablation studies on two baselines to validate their effectiveness and generalizability. Experimental results on eight datasets show that our method outperforms other scribble-based SOD models and
 achieves comparable performance with fully supervised state-of-the-art methods.
 
+## Code Construction Explanation
+ 
+
 ## Result
 You can download the saliency maps of our models, which were trained on both our dataset (Ours_FPN, Ours_HRNet) and Xu's dataset (Ours_FPN_Xu), as well as other models that were trained on our dataset (WSSA, SCWS, DENet-N), from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).
 

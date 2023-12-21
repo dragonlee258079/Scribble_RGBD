@@ -57,7 +57,7 @@ Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/f
 3. The prediction images will be saved in `./predictions`. 
 
 ## Evaluation
-We use a Matlab code for evaluation. It's provided in './evaluation'. To run this code, you should  
+We use a Matlab code for evaluation. It's provided in './evaluation'. To run this code, you should edit the `./evaluation/toolbox/getSODatasetInfo.m` file to set the test data directory. 
 
 ## Result
 You can download the saliency maps of our models  (**Ours_FPN**, **Ours_HRNet**, **Ours_FPN_Xu**) and other models (**DENet-N**, **WSSA**, **SCWS**) that were trained on our dataset from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).

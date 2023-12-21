@@ -3,7 +3,7 @@ Code release for the TPAMI 2023 paper "Robust Perception and Precise Segmentatio
 ![avatar](framework.jpg)
 
 ## Code Construction Explanation
-This paper involves three main models: our FPN-based (Ours_FPN) and HRNet-based (Ours_HRNet) models trained on our NNDR dataset, as well as our FPN-based model (Ours_FPN_Xu) trained on Xu's dataset. These three models share a common framework but have different hyperparameters. Thus, we prepared three separate projects for each model in this repository to facilitate  the use of our code. 
+This paper involves three main models: our FPN-based (`Ours_FPN`) and HRNet-based (`Ours_HRNet`) models trained on our NNDR dataset, as well as our FPN-based model (`Ours_FPN_Xu`) trained on Xu's dataset. These three models share a common framework but have different hyperparameters. Thus, we prepared three separate projects for each model in this repository to facilitate  the use of our code. 
 
 ## Abstract
 This paper proposes a scribble-based weakly supervised RGB-D salient object detection (SOD) method to relieve the annotation burden from pixel-wise annotations. In view of
@@ -20,7 +20,7 @@ the ensuing performance drop, we summarize two natural deficiencies of the scrib
 
 
 ## Result
-You can download the saliency maps of our models, which were trained on both our dataset (Ours_FPN, Ours_HRNet) and Xu's dataset (Ours_FPN_Xu), as well as other models that were trained on our dataset (WSSA, SCWS, DENet-N), from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).
+You can download the saliency maps of our models, which were trained on both our dataset (`Ours_FPN`, `Ours_HRNet`) and Xu's dataset (`Ours_FPN_Xu`), as well as other models that were trained on our dataset (WSSA, SCWS, DENet-N), from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).
 
 ![alt_text](./result_quantitation.jpg)
 ![alt_text](./result_qualitative.jpg)

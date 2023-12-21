@@ -20,7 +20,7 @@ the ensuing performance drop, we summarize two natural deficiencies of the scrib
 
 
 ## Result
-You can download the saliency maps of our models, which were trained on both our dataset (`Ours_FPN`, `Ours_HRNet`) and Xu's dataset (`Ours_FPN_Xu`), as well as other models that were trained on our dataset (WSSA, SCWS, DENet-N), from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).
+You can download the saliency maps of our models, which were trained on both our dataset (**Ours_FPN**, **Ours_HRNet**) and Xu's dataset (**Ours_FPN_Xu**), as well as other models that were trained on our dataset (**DENet-N**, **WSSA**, **SCWS**), from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).
 
 ![alt_text](./result_quantitation.jpg)
 ![alt_text](./result_qualitative.jpg)

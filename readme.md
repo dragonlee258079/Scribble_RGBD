@@ -52,10 +52,12 @@ Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/f
 2. The trained models with satisfactory performance will be saved in `./checkpoint`
 
 ## Testing model
-1. Download our trained model from [Baidu Driver](https://pan.baidu.com/s/1eWkb98sZl6OLkACjV_bxZw)(c87t) and put it into `./checkpoint/CVPR2023_Final_Code` folder.
+1. Download our trained model from [checkpoint](https://drive.google.com/drive/folders/1b-kwKBtw9RRvXlZvpZklxdNqsdzGgHe9?usp=sharing) and put it into `./checkpoint` folder.
 2. Run `python test.py`.
-3. The prediction images will be saved in `./prediction`. 
-4. Run `python ./evaluation/eval_from_imgs.py` to evaluate the predicted results on three datasets and the evaluation scores will be written in `./evaluation/result`.
+3. The prediction images will be saved in `./predictions`. 
+
+## Evaluation
+
 
 ## Result
 You can download the saliency maps of our models  (**Ours_FPN**, **Ours_HRNet**, **Ours_FPN_Xu**) and other models (**DENet-N**, **WSSA**, **SCWS**) that were trained on our dataset from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).

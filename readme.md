@@ -18,6 +18,22 @@ the ensuing performance drop, we summarize two natural deficiencies of the scrib
 - OpenCV is optional but needed by demo and visualization
 - `pip install -r requirements.txt`
 
+## Data Preparation
+Download the dataset from [Baidu Driver](https://pan.baidu.com/s/192MnRSgXSDXb0l7mJZ18ng) (cxx2) and unzip them to './dataset'. Then the structure of the './dataset' folder will show as following:
+````
+-- dataset
+   |-- train_data
+   |   |-- | CoCo9k
+   |   |-- | DUTS_class
+   |   |-- | DUTS_class_syn
+   |   |-- |-- | img_png_seamless_cloning_add_naive
+   |   |-- |-- | img_png_seamless_cloning_add_naive_reverse_2
+   |-- test_data
+   |   |-- | CoCA
+   |   |-- | CoSal2015
+   |   |-- | CoSOD3k
+````
+
 
 ## Result
 You can download the saliency maps of our models  (**Ours_FPN**, **Ours_HRNet**, **Ours_FPN_Xu**) and other models (**DENet-N**, **WSSA**, **SCWS**) that were trained on our dataset from [saliency maps](https://drive.google.com/drive/folders/1mpPVDuke88qxtuC47OgLCsLwpx-gqSKK?usp=sharing).

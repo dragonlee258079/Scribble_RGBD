@@ -19,7 +19,7 @@ the ensuing performance drop, we summarize two natural deficiencies of the scrib
 - `pip install -r requirements.txt`
 
 ## Data Preparation
-Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/folders/1mZ1f6PTLY4UVP9kttgd5f6BXM_hlCtIo?usp=sharing) and unzip them to './dataset'. Then the structure of the './dataset' folder will show as following:
+Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/folders/1mZ1f6PTLY4UVP9kttgd5f6BXM_hlCtIo?usp=sharing) and unzip them to '.data'. Then the structure of the './data' folder will show as following:
 ````
 -- dataset
    |-- train_data

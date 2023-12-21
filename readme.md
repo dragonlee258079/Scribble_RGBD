@@ -34,6 +34,10 @@ Download the dataset from [Train/Train_Xu/Test](https://drive.google.com/drive/f
    |   |-- |-- |-- | RGB
    ...
 
+   |-- | DUTLF-Depth.txt
+   |-- | LFSD.txt
+   ...
+
    |-- train
    |   |-- | CoCA
    |   |-- | CoSal2015

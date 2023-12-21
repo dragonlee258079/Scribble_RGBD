@@ -11,3 +11,4 @@ achieves comparable performance with fully supervised state-of-the-art methods.
 ## Result
 
 ![alt_text](./result_quantitation.jpg)
+![alt_text](./result_qualitative.jpg)
